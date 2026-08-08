@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Noor & Iman</title>
@@ -15,8 +13,11 @@
 
     <main class="container">
 
-    <img src="images/logo.png" alt="Noor & Iman" class="logo">
-        
+        <img
+            src="images/logo.png"
+            alt="Noor & Iman"
+            class="logo"
+        >
 
         <h1>Noor & Iman</h1>
 
@@ -24,17 +25,17 @@
             Fun Arabic Learning for Little Muslims
         </p>
 
-        <button
-            class="start-button"
-            onclick="startLesson()"
-        >
+        <button class="start-button" onclick="startLesson()">
             📖 Start Lesson 1
         </button>
 
     </main>
 
-    <script src="script.js"></script>
+    <script>
+        function startLesson() {
+            window.location.href = "lessons/alphabet.html";
+        }
+    </script>
 
 </body>
-
 </html>
